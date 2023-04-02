@@ -1,0 +1,358 @@
+.services{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.services__container{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    padding-bottom: 100px;
+    padding-top: 0;
+}
+
+.services .services__container .ser__item__container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.ser__item__container .sirvices__items{
+    height: 250px;
+    width: 300px;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 3px 4px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    transition: all .5s ;
+    cursor: pointer;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.ser__item__container .sirvices__items:nth-child(1){
+    background-image: url('../images/Gynesology.jpeg');
+}
+
+.ser__item__container .sirvices__items:nth-child(2){
+    background-image: url('../images/Urology.jpeg');
+}
+
+.ser__item__container .sirvices__items:nth-child(3){
+    background-image: url('../images/travmatoloji.jpg');
+}
+
+.ser__item__container .sirvices__items:nth-child(4){
+    background-image: url('../images/Beauty.jpeg');
+}
+
+.ser__item__container .sirvices__items:nth-child(5){
+    background-image: url('../images/Pediatrics.jpeg');
+}
+
+.ser__item__container .sirvices__items:nth-child(6){
+    background-image: url('../images/Orthopedics.png');
+}
+
+.ser__item__container .sirvices__items:nth-child(7){
+    background-image: url('../images/Physiotherapy.jpg');
+}
+
+.ser__item__container .sirvices__items:nth-child(8){
+    background-image: url('../images/General\ surgery.jpeg');
+}
+
+.ser__item__container .sirvices__items:nth-child(9){
+    background-image: url('../images/EMG.jpg');
+}
+
+.ser__item__container .sirvices__items:hover{
+    box-shadow: 1px 2px 2px black;
+}
+
+.ser__item__container .sirvices__items h2{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    line-height: 2;
+    font-size: 1.7rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    padding-top: 7px;
+    text-shadow: 1px 1px 2px black;
+    font-weight: 600;
+}
+.ser__item__container .sirvices__items .services__dis{
+    height: 70%;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    position: relative;
+    bottom: -250px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: justify;
+    flex-direction: column;
+    transition: all .7s;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px black;
+    padding: 0 25px;
+}
+
+.ser__item__container .sirvices__items .services__dis p{
+    margin-bottom: 15px;
+}
+
+.ser__item__container .sirvices__items:hover .services__dis{
+    bottom: 0;
+}
+
+.ser__item__container .sirvices__items .services__dis button{
+    height: 20px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 2px 4px black;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition: all .3s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ser__item__container .sirvices__items .services__dis button:hover{
+    background-color: #13c5dd;
+    box-shadow: 1px 1px 2px black;
+}
+
+/* doctors section */
+
+#doctors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#doctors .container{
+    width: 90%;
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-bottom: 150px;
+}
+
+.container .main_doctor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    padding-right: 40px;
+    padding-left: 50px;
+}
+
+.image_dis_doctor{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.image_dis_doctor img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 22px;
+}
+
+.image_dis_doctor h1{
+    color: #1D2A4D;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.image_dis_doctor h3{
+    color: #13c5dd;
+    margin-bottom: 10px;
+}
+
+.image_dis_doctor p{
+    color: #575757;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.image_dis_doctor p i{
+    color: #1D2A4D;
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.image_dis_doctor .social_media{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #EFF5F9;
+    border-radius: 10px;
+}
+
+.image_dis_doctor .mail{
+    margin-left: 20px;
+}
+
+
+.image_dis_doctor .social_media i{
+    font-size: 2rem;
+    color: #1D2A4D;
+    margin-right: 25px;
+    transition: all ease .3s;
+    padding: 20px;
+}
+
+.image_dis_doctor .social_media i:hover{
+    color: #13c5dd;
+}
+
+.other_doctors{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.other_doctors .content{
+    width: 90%;
+}
+
+.content .card{
+    width: 600px;
+    height: 350px;
+    display: flex;
+    background-color: #EFF5F9;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.card .image{
+    height: 100%;
+    width: 40%;
+}
+
+.card .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card .discription{
+    height: 100%;
+    width: 60%;
+    padding: 20px;
+    position: relative;
+}
+
+.card .discription h1{
+    color: #1D2A4D;
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.card .discription h3{
+    color: #13c5dd;
+    margin-bottom: 10px;
+}
+
+.card .discription p{
+    color: #575757;
+    letter-spacing: 2px;
+}
+
+.card .discription .social_media{
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #1D2A4D;
+    width: 90%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card .discription .social_media i{
+    font-size: 2rem;
+    color: #1D2A4D;
+    transition: all ease .3s;
+    cursor: pointer;
+}
+
+.card .discription .social_media i:hover{
+    color: #13c5dd;
+}
+
+#doctor{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+aside{
+    width: 35%;
+    padding-right: 100px;
+}
+
+aside h3{
+    margin-bottom: 20px;
+}
+
+aside .sections{
+    width: 100%;
+    background-color: #EFF5F9;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+aside .sections a{
+    font-size: 1.1rem;
+    color: #45455c;
+    font-weight: 600;
+    transition: all ease .3s;
+} 
+
+aside .sections i{
+    font-size: 2rem;
+    margin-right: 10px;
+    color: #45455c;
+    transition: all ease .3s;
+    font-weight: 600;
+
+}
+
+aside .sections:hover i{
+    color: #13c5dd;
+}
+
+aside .sections:hover a{
+    color: #13c5dd;
+}
